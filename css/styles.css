@@ -234,11 +234,11 @@ container container-features {
 .team-container {
   max-width: 1440px;
   height: 732px;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-title-list {
@@ -321,9 +321,9 @@ container container-features {
 }
 
 .portfolio-overlay {
-  padding-top: 32px;
-  padding-bottom: 16px;
+  padding-top: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .title-sub-portf {
   font-weight: 500;
