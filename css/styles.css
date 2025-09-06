@@ -39,6 +39,10 @@ button {
   padding-right: 15px;
   margin: 0 auto;
 }
+
+img {
+  display: block;
+}
 /* ----Header----*/
 
 .header {
@@ -139,7 +143,6 @@ button {
 
 .solutions-container {
   max-width: 1440px;
-  height: 600px;
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
@@ -167,11 +170,12 @@ button {
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
-  display: inline-block;
+  display: block;
   border-radius: 4px;
   margin-top: 48px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
+  border: none;
 }
 
 .solutions-button:hover,
@@ -231,7 +235,8 @@ container container-features {
 .team-container {
   max-width: 1440px;
   height: 732px;
-  padding: 120px 156px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team {
   background-color: #f4f4fd;
@@ -249,8 +254,6 @@ container container-features {
 }
 
 .team-overlay {
-  padding-left: 16px;
-  padding-right: 16px;
   padding-bottom: 32px;
   padding-top: 32px;
 }
@@ -291,6 +294,8 @@ container container-features {
 
 container-portfolio {
   height: 1000px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .title-portfolio-list {
   display: flex;
@@ -298,6 +303,7 @@ container-portfolio {
   column-gap: 24px;
   row-gap: 48px;
   align-items: center;
+  border: 1px solid #e7e9fc;
 }
 
 .portfolio-list-item {
@@ -317,8 +323,7 @@ container-portfolio {
 }
 
 .portfolio-overlay {
-  padding-top: 32px;
-  padding-left: 16px;
+  padding-top: 32px 16px;
 }
 .title-sub-portf {
   font-weight: 500;
@@ -352,6 +357,7 @@ container-portfolio {
   margin-left: 0;
 }
 .footer-logo {
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -359,6 +365,7 @@ container-portfolio {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-bottom: 16px;
 }
 
 .footer-logo-white {
@@ -371,7 +378,6 @@ container-portfolio {
 }
 
 .footer-text {
-  margin-top: 16px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
