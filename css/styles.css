@@ -339,9 +339,18 @@ container-portfolio {
 /* ----footer---*/
 
 .footer {
+  display: block;
   background: #2e2f42;
 }
 
+.footer-decor {
+  box-sizing: content-box;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 156px;
+  max-width: 264px;
+  margin-left: 0;
+}
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -355,13 +364,14 @@ container-portfolio {
 .footer-logo-white {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
 }
 
 .footer-text {
+  margin-top: 16px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
