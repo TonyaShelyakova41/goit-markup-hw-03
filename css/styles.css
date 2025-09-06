@@ -321,7 +321,7 @@ container container-features {
 }
 
 .portfolio-overlay {
-  padding-top: 32px 16px;
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
@@ -348,7 +348,6 @@ container container-features {
   background: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 156px;
 }
 
 .footer-decor {
