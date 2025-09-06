@@ -142,13 +142,12 @@ img {
 /* ----Solutions----*/
 
 .solutions-container {
-  max-width: 1440px;
-  padding-top: 188px;
-  padding-bottom: 188px;
   text-align: center;
 }
 .solutions {
   background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .solutions-title {
   font-family: "Roboto", sans-serif;
@@ -292,7 +291,7 @@ container container-features {
   padding: 120px 0;
 }
 
-container-portfolio {
+.container-portfolio {
   height: 1000px;
   padding-top: 120px;
   padding-bottom: 120px;
@@ -303,7 +302,6 @@ container-portfolio {
   column-gap: 24px;
   row-gap: 48px;
   align-items: center;
-  border: 1px solid #e7e9fc;
 }
 
 .portfolio-list-item {
@@ -323,7 +321,9 @@ container-portfolio {
 }
 
 .portfolio-overlay {
-  padding-top: 32px 16px;
+  padding-top: 32px;
+  padding-bottom: 16px;
+  border: 1px solid #e7e9fc;
 }
 .title-sub-portf {
   font-weight: 500;
@@ -346,13 +346,13 @@ container-portfolio {
 .footer {
   display: block;
   background: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 156px;
 }
 
 .footer-decor {
   box-sizing: content-box;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 156px;
   max-width: 264px;
   margin-left: 0;
 }
