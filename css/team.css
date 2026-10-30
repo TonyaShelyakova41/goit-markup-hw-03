@@ -4,8 +4,12 @@
 .time-title {
 }
 .team-list {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
 }
 .team-item {
+  width: calc((100% - 3 * 24) / 4);
   background-color: #fff;
 }
 .team-ill {
@@ -16,7 +20,13 @@
   line-height: 1.2;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .team-desc {
   text-align: center;
+}
+
+.team-overlay {
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
