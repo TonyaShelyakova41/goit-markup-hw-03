@@ -9,10 +9,12 @@
   align-items: flex-start;
 }
 .team-item {
-  width: calc((100% - 3 * 24) / 4);
+  border-radius: 0 0 4px 4px;
+  width: calc((100% - 3 * 24px) / 4);
   background-color: #fff;
 }
 .team-ill {
+  display: block;
 }
 .team-name {
   font-weight: 500;
